@@ -1,0 +1,31 @@
+.Drink-active-button {
+    color: black !important;
+}
+
+.route > li {
+    list-style-type: none;
+    transition: all .3s linear;
+    padding: 10px 0;
+}
+
+.route  >li > a {
+    text-decoration: none;
+    color: #797979;
+    text-transform: uppercase;
+    font-size: 22px;
+    transition: all .3s linear;
+    padding: 15px 25px;
+}
+
+.routeActive, .route  >li:hover { 
+    border-top: 1px solid #0C713D;
+    border-bottom: 1px solid #0C713D;
+    cursor: pointer;
+}
+
+.route > li:hover > a {
+    color: #0C713D !important;
+}
+
+
+

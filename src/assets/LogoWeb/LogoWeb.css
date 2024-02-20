@@ -1,0 +1,13 @@
+.logo-web {
+    animation: showLogo .9s linear;
+    width: 75px;
+}
+
+@keyframes showLogo {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
